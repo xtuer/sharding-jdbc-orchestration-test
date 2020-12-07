@@ -11,14 +11,14 @@ Zookeeper: 3.6.1
 
 ## Prepare
 
-1. create two database **demo_ds_0** and **demo_ds_1**
+1. create two database **demo_ds_0** and **demo_ds_1** in the same MySQL instance:
 
     ```sql
     CREATE DATABASE demo_ds_0 CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
     CREATE DATABASE demo_ds_1 CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
     ```
 
-2. create table user in the above 2 databases with following SQL statement.
+2. create table user in the above 2 databases with following SQL statement:
 
     ```sql
     DROP TABLE IF EXISTS user;
